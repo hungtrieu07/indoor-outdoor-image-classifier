@@ -5,6 +5,27 @@ This repository contains scripts for downloading videos corresponding to a parti
 
 ## Dependencies
 
+1. Cài với môi trường Conda (Python 3.6)
+
+```[bash]
+conda create -n <tên môi trường> python=3.6
+conda activate <tên môi trường>
+pip install -r requirements.txt
+```
+
+2. Các bước chạy:
+
+```[bash]
+bash classify.sh config/train_params.yml <thư mục dataset>
+python get_class_count.py
+```
+
+⚠️<span style="color: red;">Đường dẫn thư mục dataset nên ở dạng Roboflow để đọc được hết các ảnh trong từng thư mục train, test và valid.</span>
+
+<div style="text-align: center;">
+    <img src="classify.png" alt="alt text">
+</div>
+
 Python dependencies for the classification task
 
 * Numpy

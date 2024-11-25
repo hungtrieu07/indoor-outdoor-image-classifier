@@ -104,3 +104,7 @@ venv.bak/
 # mypy
 .mypy_cache/
 .idea/
+
+
+FireSmokeHuman.v13i.yolov11
+FireSmokeHuman.v13i.yolov11.zip
